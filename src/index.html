@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>nodejs chat</title>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="user-container">
+            대화명 : <input type="text" id="nickname">
+        </div>
+        <div class="display-container">
+            <ul class="chatting-list"></ul>
+        </div>
+        <div class="input-container">
+            <input type="text" class="chatting-input">
+            <button class="send-button">전송</button>
+        </div>
+    </div> 
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js" integrity="sha512-PU5S6BA03fRv1Q5fpwXjg5nlRrgdoguZ74urFInkbABMCENyx5oP3hrDzYMMPh3qdLdknIvrGj3yqZ4JuU7Nag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/chat.js"></script>
+</html>
