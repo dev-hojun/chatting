@@ -19,7 +19,7 @@ function send() {
         msg: chatInput.value
     }
     socket.emit("chatting", param)
-    chatInput.value = ""; // 채팅 초기화
+    chatInput.value = ""; // 채팅 입력시 input 초기화
 }
 
 sendButton.addEventListener("click", send)
